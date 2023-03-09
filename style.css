@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    -webkit-tap-highlight-color: transparent ;
+  }
+  body {
+    background-image: url("https://i.postimg.cc/ZW6zZyK0/app-background.png");
+    background-size: 3.12em 3.12em;
+  }
+  .wrapper {
+    width: 95%;
+    max-width: 37.5em;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: 1.5em;
+    left: 50%;
+  }
+  .container {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 3em 1.5em;
+    position: relative;
+    border-radius: 0.6em;
+    -webkit-box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+            box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+  }
+  a {
+    display: block;
+    background-color: #ffffff;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0;
+    border-radius: 0.3em;
+    margin-top: 1.5em;
+    -webkit-box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+            box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+    color: rgb(19, 3, 70);
+    font-weight: 600;
+  }
+  .container img {
+    display: block;
+    height: 25em;
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+  }
+  .container h3 {
+    display: block;
+    font-size: 1em;
+    margin: 0.5em auto 2em auto;
+    width: 70%;
+    color: #737081;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+  }
+  .container button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    border: none;
+    outline: none;
+    background-color: #7f5eff;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 14px;
+    }
+  }
